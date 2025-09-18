@@ -31,7 +31,25 @@ Land8Fire focuses on wildfire detection using high-resolution satellite imagery.
 
 ## 📦 Dataset
 
-The dataset will be available shortly
+
+The Land8Fire dataset is stored on Google Drive and organized as follows:
+```
+Land8Fire/
+├── images/
+├── masks/
+└── kfolds/
+    ├── kfold1/
+    │   ├── images.zip
+    │   └── masks.zip
+    ├── kfold2/
+    │   ├── images.zip
+    │   └── masks.zip
+    ...
+    └── kfold5/
+        ├── images.zip
+        └── masks.zip
+```
+
 
 
 ## 📁 Benchmarking
