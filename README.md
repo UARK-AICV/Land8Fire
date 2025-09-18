@@ -31,6 +31,7 @@ Land8Fire focuses on wildfire detection using high-resolution satellite imagery.
 
 ## 📦 Dataset
 
+
 Our dataset has been subdivided into 5 folds, each containing images and their corresponding masks. This is the training data used in our benchmarking study. To download, run the following command:
 ```
 python3 ./land8fire/kfolds_downloader.py
@@ -58,6 +59,7 @@ Land8Fire/
         ├── images.zip
         └── masks.zip
 ```
+
 
 ## 📁 Benchmarking
 Our code is implemented on mmsegmentation and is updated rapidly. Please keep in mind you're using the same compatibility version. 
